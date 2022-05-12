@@ -11,6 +11,7 @@ PWMB = 23
 BIN1 = 25
 BIN2 = 24
 
+# 자동차 주행
 def motor_back(speed):
     L_Motor.ChangeDutyCycle(speed)
     GPIO.output(AIN2,False)#AIN2
